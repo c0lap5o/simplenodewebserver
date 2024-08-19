@@ -47,23 +47,9 @@ To get started with this project, you'll need to have [Node.js](https://nodejs.o
 
 ## Example
 
-To test the server, you can create a simple HTML file in the `src` directory:
+To test the server, you can modify the HTML file in the `src` directory.
 
-```html
-<!-- public/index.html -->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Simple Node.js Server</title>
-</head>
-<body>
-    <h1>Welcome to My Simple Node.js Web Server!</h1>
-    <p>This is a static file served by Node.js.</p>
-</body>
-</html>
-```
-
-Navigate to `http://localhost:3000/index.html` to see the result.
+Navigate to `http://localhost:8080/index.html` to see the result.
 
 ## Future Enhancements
 
