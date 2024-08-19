@@ -19,13 +19,13 @@ To get started with this project, you'll need to have [Node.js](https://nodejs.o
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/c0lap5o/simplenodewebserver.git
+   git clone https://github.com/c0lap5o/simplewebserver.git
    ```
 
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd simplenodewebserver
+   cd simplewebserver
    ```
 
 3. **Install Dependencies (if any):**
