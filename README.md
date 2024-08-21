@@ -1,9 +1,8 @@
 # Simple Node.js Web Server
 
 Welcome to the Simple Node.js Web Server project! This repository contains a basic implementation of a web server using the HTTP module in Node.js.
-
+![Screenshot from 2024-08-21 12-39-29](https://github.com/user-attachments/assets/1369a782-e7e5-4f49-aa1f-a6062fac0cc8)
 ## Overview
-
 This project demonstrates how to create a simple web server with Node.js. The server can handle HTTP requests and serve static files. It's a great starting point for learning about server-side scripting and Node.js fundamentals.
 
 ## Features
