@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Your Website Title</title>
+</head>
+<body class="bg-gray-50 dark:bg-gray-800">
+    <!-- Sticky Header with Logo and Phone Number -->
+    <nav class="sticky top-0 bg-white border-gray-200 dark:bg-gray-900 z-50">
+        <div class="flex flex-col md:flex-row justify-between items-center w-full p-4">
+            <div class="flex items-center space-x-3">
+                <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="https://media.gettyimages.com/id/1410020991/vector/logo-set.jpg?s=612x612&w=0&k=20&c=s_ynbom0v6a5CSLWcc_ToTEZ-6RgWKEIw0pMOu_8S4Q=" class="h-8" alt="Company Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Company Logo</span>
+                </a>
+            </div>
+            <div class="flex items-center space-x-6 rtl:space-x-reverse mt-2 md:mt-0">
+                <a href="tel:5541251234" class="text-sm text-gray-500 dark:text-white hover:underline">(555) 412-1234</a>
+                <a href="/login" class="text-sm text-blue-600 dark:text-blue-500 hover:underline">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="sticky top-[56px] bg-gray-50 dark:bg-gray-700 z-50"> 
+        <div class="w-full px-4 py-3 m-0">
+            <div class="flex items-center justify-start">
+                <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
+                    <li>
+                        <a href="/" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="/company" class="text-gray-900 dark:text-white hover:underline">Company</a>
+                    </li>
+                    <li>
+                        <a href="/team" class="text-gray-900 dark:text-white hover:underline">Team</a>
+                    </li>
+                    <li>
+                        <a href="/features" class="text-gray-900 dark:text-white hover:underline">Features</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-white dark:bg-gray-900 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold text-gray-800 dark:text-white mb-4">Welcome to Our Company</h1>
+            <p class="text-gray-600 dark:text-gray-300 mb-8">We provide innovative solutions to help your business grow.</p>
+            <a href="/features" class="px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-500">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-gray-100 dark:bg-gray-800 py-12">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white text-center mb-8">Our Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md text-center">
+                    <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17.5l-3.75-3.75m0 0L9.75 10m-4.75 3.75H14.25a5.25 5.25 0 005.25-5.25V5.25"></path></svg>
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Feature One</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Description of feature one.</p>
+                </div>
+                <div class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md text-center">
+                    <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v8m0 4v4m8-8h4"></path></svg>
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Feature Two</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Description of feature two.</p>
+                </div>
+                <div class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md text-center">
+                    <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2v20m10-10H2"></path></svg>
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Feature Three</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Description of feature three.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-blue-600 dark:bg-blue-800 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Ready to Get Started?</h2>
+            <p class="text-blue-100 mb-8">Join us today and start benefiting from our services.</p>
+            <a href="/signup" class="px-4 py-2 bg-white text-blue-600 rounded-full hover:bg-gray-100">Sign Up Now</a>
+        </div>
+    </section>
+</body>
+
+<footer class="flex bg-gray-800 dark:bg-gray-900 py-4 text-center text-gray-500 justify-center content-evenly">
+    <p>&copy; 2024 Your Company. All rights reserved.</p>
+    <a href="tel:5541251234" class="text-white hover:bg-blue-500 ml-2">Contacts</a>
+</footer>
+</html>
