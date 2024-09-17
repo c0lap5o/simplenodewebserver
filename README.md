@@ -1,7 +1,16 @@
 # Simple Node.js Web Server
 
 Welcome to the Simple Node.js Web Server project! This repository contains a basic implementation of a web server using the HTTP module in Node.js.
-![Screenshot from 2024-08-21 12-39-29](https://github.com/user-attachments/assets/1369a782-e7e5-4f49-aa1f-a6062fac0cc8)
+![image](https://github.com/user-attachments/assets/0130466b-2710-4643-991d-69b663bf7d2a)
+![image](https://github.com/user-attachments/assets/83144275-5711-42c5-afa8-be07bd156731)
+![image](https://github.com/user-attachments/assets/b8e4f381-54c0-48ca-86d8-8623ca433cae)
+![image](https://github.com/user-attachments/assets/d236c0d9-6117-42a0-b80d-dd380ac065cc)
+![image](https://github.com/user-attachments/assets/778f6a69-964d-4744-8140-540002f8ae50)
+![image](https://github.com/user-attachments/assets/a77df6ae-ae63-4eee-8e66-89c84d66fdaf)
+
+
+
+
 ## Overview
 This project demonstrates how to create a simple web server with Node.js. The server can handle HTTP requests and serve static files. It's a great starting point for learning about server-side scripting and Node.js fundamentals.
 
@@ -24,14 +33,10 @@ To get started with this project, you'll need to have [Node.js](https://nodejs.o
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd simplewebserver
+   cd simplenodewebserver
    ```
 
-3. **Install Dependencies (if any):**
-
-   This project doesn't require any additional dependencies. 
-
-4. **Run the Server:**
+3. **Run the Server:**
 
    ```bash
    node server.js
@@ -41,7 +46,6 @@ To get started with this project, you'll need to have [Node.js](https://nodejs.o
 
 ## Usage
 
-- **Static Files:** Place any files you want to serve in the `src` directory. The server will automatically serve files from this directory.
 - **Customization:** You can modify `server.js` to change the port, add custom routes, or handle different types of requests.
 
 ## Example
